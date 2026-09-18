@@ -991,7 +991,20 @@ button {
 
     margin-top: 5px;
   }
+  
+  .scrap-ps {
+    position: relative;
 
+    left: auto;
+    top: auto;
+    bottom: auto;
+
+    width: min(82vw, 280px);
+
+    transform: rotate(1deg);
+
+    margin-top: 5px;
+  }
   /* TIMELINE */
 
   .timeline-item {
