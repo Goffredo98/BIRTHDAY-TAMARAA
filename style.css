@@ -343,7 +343,7 @@ button {
 
 .scrapbook {
   position: relative;
-  min-height: 1150px;
+  min-height: 1300px;
 }
 
 .scrap-item {
@@ -511,12 +511,9 @@ button {
 /* P.S. NOTE */
 
 .scrap-ps {
-/* P.S. NOTE */
-
-.scrap-ps {
   position: absolute;
   left: 50%;
-  bottom: 70px;
+  top: 990px;
 
   width: 270px;
   padding: 35px 25px;
