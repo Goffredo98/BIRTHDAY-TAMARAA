@@ -508,6 +508,38 @@ button {
   font-size: 17px;
 }
 
+/* P.S. NOTE */
+
+.scrap-ps {
+  position: absolute;
+  left: 50%;
+  bottom: 70px;
+  width: min(90%, 520px);
+  padding: 28px 30px;
+  border: 1px solid var(--line);
+  background: rgba(255, 253, 249, 0.82);
+  text-align: center;
+  transform: translateX(-50%) rotate(1deg);
+  box-shadow: 0 12px 30px rgba(70, 50, 40, 0.05);
+}
+
+.scrap-ps .ps-label {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--accent);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.scrap-ps p {
+  color: var(--text);
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
 /* =========================
    EFFORT
 ========================= */
